@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+
+    <button id="rules-btn" class="btn rules-btn">How To</button>
+    <div id="rules" class="rules">
+      <h2>Rules of the game:</h2>
+      <p>
+        Tic Tac Toe is a two-player game where the first player to connect a line of pieces from one side or corner of the board to the other wins. With perfect play, the game cannot be won.
+      </p>
+      
+      <ol>
+        <li> X moves first.</li>
+        <li> A piece may be placed on any empty space.</li>
+        <li> A player wins by being the first to connect a line of friendly pieces from one side or corner of the board to the other</li>
+        <li>The game ends when either one player wins or it is no longer possible for a player to win (in which case the result is a draw).</li>
+      </ol>
+
+      <button id="close-btn" class="btn">Close</button>
+    </div>
+
+
+
+    <div class="tictactoe">
+        <h1>Tic-Tac-Toe</h1>
+        <h2 class="turnIndicator"> </h2>
+
+        <div class="board">
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+            <div class="square">
+                <div class="outline"></div>
+                <div class="foreground"></div>
+            </div>
+        </div>
+
+        <button class="newGame">New Game</button>
+    </div>
+</body>
+
+</html>
